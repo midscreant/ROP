@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> ROP </title>
+    <link href='./resources/css/EnglishPage.css' tpye='text/css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header id="header">
+
+        <!-- clickable logo redirects to home page -->
+        <div id='logo'>
+            <a id='logo_anchor' href='./home.html'> <img id='logo_image' src='./resources/images/Logo/family-tree-logo-template-144295648.jpeg'></a>
+            <div id='logo_title'>Restoration<br>Outreach<br>Programs</div>        
+        </div>
+        <!-- nav bar buttons redirect to new page -->
+        <!-- exception for contact button which redirects to footer -->
+
+
+        <nav>
+
+            <div id='about_us_button' class='nav_button'>
+                <span class='text_button'> about us </span> 
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./AboutUsTemplate.html'> our story </a>
+                    <a class='dropdown_menu' href='./about_me.html'> who we are </a>
+                    <a class='dropdown_menu' href='./about_me.html'> staff </a>
+                    <a class='dropdown_menu' href='./about_me.html'> partnerships: RWC/RCEC </a>
+                    <a class='dropdown_menu' href='./about_me.html'> annual financial report </a>
+                </div> 
+            </div>
+
+            <div id='programs_button' class='nav_button'> 
+                <span class='text_button'> our programs </span> 
+                <div class='dropdown_content'>
+                    <a class='dropdown_menu' href='./EnglishPage.html'> english classes </a>
+                    <a class='dropdown_menu' href='./FoodBankPage.html'> food bank </a>
+                    <a class='dropdown_menu' href='./RefugeePage.html'> refugee resources </a>
+                    <a class='dropdown_menu' href='./ChildrensMinistryPage.html'> selah children's ministry </a>
+                    <a class='dropdown_menu' href='./TeenMinistriesPage.html'> teen ministries </a>
+                    <a class='dropdown_menu' href='./UrbanMinistriesPage.html'> TUMI </a>
+                    <a class='dropdown_menu' href='./WorkReadiness.html'> work readiness </a>
+                    <a class='dropdown_menu' href='./about_me.html'> hospitality center </a>
+                </div> 
+            </div>
+
+            <div id='help_button' class='nav_button'>
+                <span class='text_button'> crisis help </span> 
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./about_me.html'> crisis food </a>
+                    <a class='dropdown_menu' href='./about_me.html'> shelter resources </a>
+                    <a class='dropdown_menu' href='./about_me.html'> join one of our programs </a>
+                    <a class='dropdown_menu' href='./about_me.html'> restoration counseling on east colfax </a>
+                    <a class='dropdown_menu' href='./about_me.html'> restoration worship center </a>
+                </div> 
+            </div>
+
+            <div id='get_involved_button' class='nav_button'>
+                <span class='text_button'> get involved </span> 
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./about_me.html'> volunteer </a>
+                    <a class='dropdown_menu' href='./about_me.html'> give </a>
+                    <a class='dropdown_menu' href='./about_me.html'> join our email list </a>
+                    <a class='dropdown_menu' href='./about_me.html'> church and partnerships </a>
+                    <a class='dropdown_menu' href='./about_me.html'> careers </a>
+                </div> 
+            </div>
+
+            <div id='news_button' class='nav_button'>
+                <span class='text_button'> news </span>  
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./about_me.html'> our latest news </a>
+                    <a class='dropdown_menu' href='./about_me.html'> upcoming events </a>
+                    <a class='dropdown_menu' href='./about_me.html'> register for email updates </a>
+                </div> 
+            </div>
+            
+            <a id='contact_button' class='nav_button' href='#contact_box'> contact us </a>
+        </nav>
+
+    </header>
+
+    <div id='content_container'>
+
+        <div id='intro_bar_container'>
+            <div id='intro_bar_image_box_1'><img id='intro_bar_image_1' src='./resources/images/FinalPhotos/English_Banner_1.jpg'></div>
+            <div id='intro_bar_text' class='page_text'><h1 id='intro_title'>ENGLISH CLASSES</h1></div>
+        </div>
+
+        <div id='page_content_container'>
+            <div id='content_box'>
+                <div id='page_content' class='page_text page_content'>
+                    <h1 class='page_title'>PROGRAM DESCRIPTION:</h1> 
+                    <p class='page_paragraph'>We offer English classes to the refugee and immigrant population in the
+                        surrounding neighborhoods, to help them overcome the language barriers they
+                        face living in the United States. Students are assessed and divided into four class
+                        levels, based on their English proficiency in speaking, listening, reading, and
+                        writing. We utilize the Cambridge Ventures curriculum in each level, and
+                        students are able to advance to the next level at the end of each school year.</p>
+                </div>
+                <!--<div class='page_text page_content'>
+                    <h1 class='page_title'>PROGRAM GOALS:</h1> 
+                    <p class='page_paragraph'>We offer English classes to the refugee and immigrant population in the
+                        surrounding neighborhoods, to help them overcome the language barriers they
+                        face living in the United States. Students are assessed and divided into four class
+                        levels, based on their English proficiency in speaking, listening, reading, and
+                        writing. We utilize the Cambridge Ventures curriculum in each level, and
+                        students are able to advance to the next level at the end of each school year.<br>
+                        <ul class='page_paragraph'>
+                            <li>Look for ways to teach English in the community context, outside the ROP
+                                building (maybe a church, an apartment complex, etc. where people are
+                                already gathered) specifically within their own language groups so students
+                                can better help each other.</li>
+                            <li>Build a friendship partner program for the English students to be paired with
+                                an American friend who would meet with them weekly or bi-weekly.</li>
+                            <li>Advertise the English program on our website and other sites that would
+                                engage potential students.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div id='page_content' class='page_text page_content'>
+                    <h1 class='page_title'>PROGRAM SUCCESSES:</h1> 
+                    <ul class='page_paragraph'>
+                        <li>A strong sense of community and friendship among the students, who enjoy
+                            encouraging each other and laughing together.</li>
+                        <li>Students have progressed from very beginner level (with no English ability at
+                            all) to an intermediate level, with more confidence and commitment to using
+                            English.</li>
+                        <li>Many of our students say that ROP is the place they know they can go for any
+                            help they need, and have a trusting relationship with the English teachers.</li>
+                        <li>Opportunities to share about the saving grace of Jesus and how to have a
+                            relationship with Him, which have come up because of conversations about
+                            fear or even why Christians eat pork and Muslims don’t!</li>
+                    </ul>
+                </div> -->
+            </div>
+            <div id='image_and_quote_box'>
+                <h1 class='page_title'>Want to Volunteer?</h1>
+                <a href='./Volunteer.html'>Volunteer with us</a>
+                <h1 class='page_title'>PROGRAM HOURS: </h1>
+                <div class='quote_box'><b>Mondays - Thursdays<br>
+                10:00am - 12:00pm<br>
+                Each class meets twice a week<br>
+                within those days</b></div>
+                <div class='page_image_box'><img class='page_image' src='./resources/images/FinalPhotos/PROFILE_Angie_Photo.jpg'></div>
+                <div class='quote_box'>Angie Long<br>
+                English Language Class Director<br>
+                (720) 326 2024<br>
+                angie@restorationoutreachprograms.org</div>
+                <div class='page_image_box'><img class='page_image' src='./resources/images/FinalPhotos/English_Image_1.jpeg'></div>
+                <div class='page_image_box'><img class='page_image' src='./resources/images/FinalPhotos/English_Image_2.jpeg'></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

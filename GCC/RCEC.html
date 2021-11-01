@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> ROP </title>
+    <link href='./resources/css/RCEC.css' tpye='text/css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header id="header">
+
+        <!-- clickable logo redirects to home page -->
+        <div id='logo'>
+            <a id='logo_anchor' href='./home.html'> <img id='logo_image' src='./resources/images/Logo/family-tree-logo-template-144295648.jpeg'></a>
+            <div id='logo_title'>Restoration<br>Outreach<br>Programs</div>        
+        </div>
+        <!-- nav bar buttons redirect to new page -->
+        <!-- exception for contact button which redirects to footer -->
+
+
+        <nav>
+
+            <div id='about_us_button' class='nav_button'>
+                <span class='text_button'> about us </span> 
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./AboutUsTemplate.html'> our story </a>
+                    <a class='dropdown_menu' href='./about_me.html'> who we are </a>
+                    <a class='dropdown_menu' href='./about_me.html'> staff </a>
+                    <a class='dropdown_menu' href='./about_me.html'> partnerships: RWC/RCEC </a>
+                    <a class='dropdown_menu' href='./about_me.html'> annual financial report </a>
+                </div> 
+            </div>
+
+            <div id='programs_button' class='nav_button'> 
+                <span class='text_button'> our programs </span> 
+                <div class='dropdown_content'>
+                    <a class='dropdown_menu' href='./EnglishPage.html'> english classes </a>
+                    <a class='dropdown_menu' href='./FoodBankPage.html'> food bank </a>
+                    <a class='dropdown_menu' href='./RefugeePage.html'> refugee resources </a>
+                    <a class='dropdown_menu' href='./ChildrensMinistryPage.html'> selah children's ministry </a>
+                    <a class='dropdown_menu' href='./TeenMinistriesPage.html'> teen ministries </a>
+                    <a class='dropdown_menu' href='./UrbanMinistriesPage.html'> TUMI </a>
+                    <a class='dropdown_menu' href='./WorkReadiness.html'> work readiness </a>
+                    <a class='dropdown_menu' href='./about_me.html'> hospitality center </a>
+                </div> 
+            </div>
+
+            <div id='help_button' class='nav_button'>
+                <span class='text_button'> crisis help </span> 
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./about_me.html'> crisis food </a>
+                    <a class='dropdown_menu' href='./about_me.html'> shelter resources </a>
+                    <a class='dropdown_menu' href='./about_me.html'> join one of our programs </a>
+                    <a class='dropdown_menu' href='./about_me.html'> restoration counseling on east colfax </a>
+                    <a class='dropdown_menu' href='./about_me.html'> restoration worship center </a>
+                </div> 
+            </div>
+
+            <div id='get_involved_button' class='nav_button'>
+                <span class='text_button'> get involved </span> 
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./about_me.html'> volunteer </a>
+                    <a class='dropdown_menu' href='./about_me.html'> give </a>
+                    <a class='dropdown_menu' href='./about_me.html'> join our email list </a>
+                    <a class='dropdown_menu' href='./about_me.html'> church and partnerships </a>
+                    <a class='dropdown_menu' href='./about_me.html'> careers </a>
+                </div> 
+            </div>
+
+            <div id='news_button' class='nav_button'>
+                <span class='text_button'> news </span>  
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./about_me.html'> our latest news </a>
+                    <a class='dropdown_menu' href='./about_me.html'> upcoming events </a>
+                    <a class='dropdown_menu' href='./about_me.html'> register for email updates </a>
+                </div> 
+            </div>
+            
+            <a id='contact_button' class='nav_button' href='#contact_box'> contact us </a>
+        </nav>
+
+    </header>
+
+    <div id='content_container'>
+
+        <div id='intro_bar_container'>
+            <div id='intro_bar_image_box_1'><img id='intro_bar_image_1' src='./resources/images/FinalPhotos/Refugee_Banner.jpg'></div>
+            <div id='intro_bar_text' class='page_text'><h1 id='intro_title'>RESTORATION<br>COUNSELING</h1></div>
+        </div>
+
+        <div id='page_content_container'>
+            <div id='content_box'>
+                <div id='page_content' class='page_text page_content'>
+                    <h1 class='page_title'>ABOUT RESTORATION COUNSELING ON EAST COLAX(RCEC)</h1> 
+                    <p class='page_paragraph'>Integrating mind, body and spirit to impact REAL CHANGE.<br><br>
+                        Led by Executive Director, Deb Ford, MA, LAC, LPC, CHTT, Restoration
+                        Counseling on East Colfax serves individuals trapped in addictions, abuse
+                        and human trafficking.<br><br>
+                        The RCEC goal is to provide each client with the education, skills and
+                        abilities to live a life full of hope, purpose and real change.<br><br>
+                        What do we mean by real change?<br><br>
+                        “Change always starts in your mind. The way you think determines the way
+                        you feel, and the way you feel influences
+                        the way you act.” - Rick Warren<br><br>
+                        RCEC believes that real change is a result of changing our thinking,
+                        changing our behavior, developing the skills to make healthy choices and
+                        living in our true identity instead of the one we previously created.</p>
+                    <h1 class='page_title'>OUR SERVICES</h1>
+                    <h3>Individual Therapy</h3>
+                    <ul class='services_list' id='list_1'>
+                        <li class='service'>Individual Therapy</li>
+                        <li class='service'>Trauma</li>
+                        <li class='service'>Abuse</li>
+                        <li class='service'>Family Systems</li>
+                        <li class='service'>Human Trafficking</li>
+                    </ul>
+                    <h3>Group Therapy</h3>
+                    <ul class='services_list' id='list_2'>
+                        <li class='service'>Level I and Level II DUI Education/Classes</li>
+                        <li class='service'>Level II DUI Therapy – Tracks A, B, C, D</li>
+                        <li class='service'>Interlock Enhanced Counseling</li>
+                        <ul class='sub_list'>
+                            <li class='servcie'>Completion can shorten Interlock duration requirement</li>
+                        </ul>
+                        <li class='service'>Trauma Recovery</li>
+                        <li class='service'>Anger Management</li>
+                        <li class='service'>SIC– Strategies for Self-Improvement and Change</li>
+                        <li class='service'>DBT– Dialectical Behavioral Therapy</li>
+                        <li class='service'>MRT– Moral Recognition Therapy</li>
+                    </ul>
+                    <h3>Case Management</h3>
+                    <ul class='services_list' id='list_3'>
+                        <li class='service'>Providing continuity through a single point of contact for referral and services</li>
+                    </ul>
+                </div>
+            </div>
+            <div id='image_and_quote_box'>
+                <h3 style="line-height:1.25;">FOR CLASS SCHEDULES,<br>
+                    APPOINTMENTS, FEE<br>
+                    STRUCTURES, OR ANY<br>
+                    QUESTIONS, CONTACT<br></h3>
+                <p class='page_paragraph' style='text-align: left;'>Deb Ford<br>(720)271-3600<br>dford@rcec-co.org/</p>
+                <img class='page_image' src='./resources/images/FinalPhotos/PROFILE_Deb.jpeg'>
+                <h3>FOR MORE INFORMATION VISIT</h3>
+                <a href="http://www.rcec-co.org/" style="font-size: 18px; text-align: center;">http://www.rcec-co.org/</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

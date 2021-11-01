@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> ROP </title>
+    <link href='./resources/css/home.css' type='text/css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header id="header">
+
+        <!-- clickable logo redirects to home page -->
+        <div id='logo'>
+            <a id='logo_anchor' href='./home.html'> <img id='logo_image' src='./resources/images/Logo/family-tree-logo-template-144295648.jpeg'></a>
+            <div id='logo_title'>Restoration<br>Outreach<br>Programs</div>
+        </div>
+        <!-- nav bar buttons redirect to new page -->
+        <!-- exception for contact button which redirects to footer -->
+
+
+        <nav>
+
+            <div id='about_us_button' class='nav_button'>
+                <span class='text_button'> about us </span> 
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./OurStory.html'> our story </a>
+                    <a class='dropdown_menu' href='./WhoWeAre.html'> who we are </a>
+                    <a class='dropdown_menu' href='./Staff.html'> staff </a>
+                    <a class='dropdown_menu' href='./Staff.html'> mission, vision, beliefs </a> <!---->
+                    <a class='dropdown_menu' href='./RWC.html'> partner: RWC </a>
+                    <a class='dropdown_menu' href='./RCEC.html'> partner: RCEC </a>
+                    <a class='dropdown_menu' href='./Financials.html'> annual financial report </a> <!---->
+                </div> 
+            </div>
+
+            <div id='programs_button' class='nav_button'> 
+                <span class='text_button'> our programs </span> 
+                <div class='dropdown_content'>
+                    <a class='dropdown_menu' href='./EnglishPage.html'> english classes </a>
+                    <a class='dropdown_menu' href='./FoodBankPage.html'> food bank </a>
+                    <a class='dropdown_menu' href='./RefugeePage.html'> refugee resources </a>
+                    <a class='dropdown_menu' href='./ChildrensMinistryPage.html'> selah children's ministry </a>
+                    <a class='dropdown_menu' href='./TeenMinistriesPage.html'> teen ministries </a>
+                    <a class='dropdown_menu' href='./UrbanMinistriesPage.html'> TUMI </a>
+                    <a class='dropdown_menu' href='./WorkReadiness.html'> work readiness </a>
+                    <a class='dropdown_menu' href='./HospitalityPage.html'> hospitality center </a>
+                </div> 
+            </div>
+
+            <div id='help_button' class='nav_button'>
+                <span class='text_button'> crisis help </span> 
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./CrisisFood.html'> crisis food </a>
+                    <a class='dropdown_menu' href='./about_me.html'> shelter resources </a> <!---->
+                    <a class='dropdown_menu' href='./about_me.html'> join one of our programs </a> <!---->
+                    <a class='dropdown_menu' href='https://www.rcec-co.org' target="_blank"> restoration counseling </a>
+                    <a class='dropdown_menu' href='https://www.RWCAurora.org' target="_blank"> restoration worship center </a>
+                </div> 
+            </div>
+
+            <div id='get_involved_button' class='nav_button'>
+                <span class='text_button'> get involved </span> 
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./Volunteer.html'> volunteer </a> <!-- WORK -->
+                    <a class='dropdown_menu' href='./Give.html'> give </a>
+                    <a class='dropdown_menu' href='./Prayer.html'> prayer </a> <!-- WORK -->
+                    <a class='dropdown_menu' href='./Careers.html'> church and partnerships </a> <!---->
+                    <a class='dropdown_menu' href='./Careers.html'> careers </a>
+                </div> 
+            </div>
+
+            <div id='news_button' class='nav_button'>
+                <span class='text_button'> news </span>  
+                <div class='dropdown_content'> 
+                    <a class='dropdown_menu' href='./LatestNews.html'> latest news </a>
+                    <a class='dropdown_menu' href='./LatestNews.html'> upcoming events </a> <!---->
+                    <a class='dropdown_menu' href='./Prayer.html'> register for email updates </a>
+                </div> 
+            </div>
+            
+            <a id='contact_button' class='nav_button' href='./ContactUs.html'> contact us </a>
+        </nav>
+
+    </header>
+
+    <div id='page_content'>
+
+        <div id='main_box'>
+            <img src='./resources/images/FrontTest.png' id='main_image' alt=''>
+            <p id='mission_statement'><b>Meeting needs, Building relationships,  and Restoring lives through Christ in the East Colfax Community.</b></p>
+            <p id='main_text'><b>Pizza party and Picnic! </b><br><a id='main_anchor' href='./StoryTemplate.html'>Click here to read the story….</a></p>
+        </div>
+
+    
+        <div id='projects_body'>
+            <a class='projects_picture_anchor' href='./EnglishPage.html'> <img class='projects_picture' src='./resources/images/FinalPhotos/English_Image_1.jpeg'> <p class='project_overlay'>English Classes</p> </a>
+            <a class='projects_picture_anchor' href='./FoodBankPage.html'> <img class=projects_picture src='./resources/images/FinalPhotos/Food_Bank_Program_Image.jpg'> <p class='project_overlay'>Food Bank</p>  </a>
+            <a class='projects_picture_anchor' href='./RefugeePage.html'> <img class=projects_picture src='./resources/images/Refugee Church Mentoring/african girls.jpg'> <p class='project_overlay'>Refugee Resources and Outreach</p>  </a>
+            <a class='projects_picture_anchor' href='./ChildrensMinistryPage.html'> <img class=projects_picture src='./resources/images/FinalPhotos/CM_Program_Image.jpeg'> <p class='project_overlay'>Selah Children's Ministry</p> </a>
+            <a class='projects_picture_anchor' href='./TeenMinistriesPage.html'> <img class=projects_picture src='./resources/images/cropped-Praying-with-Community.jpg'> <p class='project_overlay'>Teen Ministries</p> </a>
+            <a class='projects_picture_anchor' href='./UrbanMinistriesPage.html'> <img class=projects_picture src='./resources/images/TUMI/The Urban Ministry Institute (TUMI) class.jpg'> <p class='project_overlay'>The Urban Ministries Institute(TUMI)</p> </a>
+            <a class='projects_picture_anchor' href='./WorkReadiness.html'> <img class=projects_picture src='./resources/images/Work Readiness/Work Readiness.jpg'> <p class='project_overlay'>Work Readiness/GED Ministry</p> </a>
+            <a class='projects_picture_anchor' href=''> <img class=projects_picture src='./resources/images/Hospitality Center/homeless outreach.jpeg'> <p class='project_overlay'> Hospitality Center </p> </a>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
